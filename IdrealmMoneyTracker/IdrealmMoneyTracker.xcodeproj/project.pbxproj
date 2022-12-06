@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E1C14DD293DD20800F16F5A /* IdrealmMoneyTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C14DC293DD20800F16F5A /* IdrealmMoneyTrackerApp.swift */; };
+		6E1C14DF293DD20800F16F5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C14DE293DD20800F16F5A /* ContentView.swift */; };
+		6E1C14E1293DD20800F16F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C14E0293DD20800F16F5A /* Assets.xcassets */; };
+		6E1C14E4293DD20800F16F5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C14E3293DD20800F16F5A /* Preview Assets.xcassets */; };
+		6E1C14E6293DD20800F16F5A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C14E5293DD20800F16F5A /* Persistence.swift */; };
+		6E1C14E9293DD20800F16F5A /* IdrealmMoneyTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C14E7293DD20800F16F5A /* IdrealmMoneyTracker.xcdatamodeld */; };
+		6EF18021293ED27B003D512D /* tempSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF18020293ED27B003D512D /* tempSave.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E1C14D9293DD20800F16F5A /* IdrealmMoneyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdrealmMoneyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1C14DC293DD20800F16F5A /* IdrealmMoneyTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdrealmMoneyTrackerApp.swift; sourceTree = "<group>"; };
+		6E1C14DE293DD20800F16F5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E1C14E0293DD20800F16F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E1C14E3293DD20800F16F5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E1C14E5293DD20800F16F5A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		6E1C14E8293DD20800F16F5A /* IdrealmMoneyTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IdrealmMoneyTracker.xcdatamodel; sourceTree = "<group>"; };
+		6EF18020293ED27B003D512D /* tempSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempSave.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E1C14D6293DD20800F16F5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E1C14D0293DD20800F16F5A = {
+			isa = PBXGroup;
+			children = (
+				6E1C14DB293DD20800F16F5A /* IdrealmMoneyTracker */,
+				6E1C14DA293DD20800F16F5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E1C14DA293DD20800F16F5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C14D9293DD20800F16F5A /* IdrealmMoneyTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E1C14DB293DD20800F16F5A /* IdrealmMoneyTracker */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C14DC293DD20800F16F5A /* IdrealmMoneyTrackerApp.swift */,
+				6E1C14F1293DD24300F16F5A /* Model */,
+				6E1C14EF293DD23000F16F5A /* View */,
+				6E1C14F0293DD23800F16F5A /* ViewModel */,
+				6EF18020293ED27B003D512D /* tempSave.swift */,
+				6E1C14E0293DD20800F16F5A /* Assets.xcassets */,
+				6E1C14E7293DD20800F16F5A /* IdrealmMoneyTracker.xcdatamodeld */,
+				6E1C14E2293DD20800F16F5A /* Preview Content */,
+			);
+			path = IdrealmMoneyTracker;
+			sourceTree = "<group>";
+		};
+		6E1C14E2293DD20800F16F5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C14E3293DD20800F16F5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E1C14EF293DD23000F16F5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C14DE293DD20800F16F5A /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E1C14F0293DD23800F16F5A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6E1C14F1293DD24300F16F5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C14E5293DD20800F16F5A /* Persistence.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E1C14D8293DD20800F16F5A /* IdrealmMoneyTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E1C14EC293DD20800F16F5A /* Build configuration list for PBXNativeTarget "IdrealmMoneyTracker" */;
+			buildPhases = (
+				6E1C14D5293DD20800F16F5A /* Sources */,
+				6E1C14D6293DD20800F16F5A /* Frameworks */,
+				6E1C14D7293DD20800F16F5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IdrealmMoneyTracker;
+			productName = IdrealmMoneyTracker;
+			productReference = 6E1C14D9293DD20800F16F5A /* IdrealmMoneyTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E1C14D1293DD20800F16F5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					6E1C14D8293DD20800F16F5A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 6E1C14D4293DD20800F16F5A /* Build configuration list for PBXProject "IdrealmMoneyTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E1C14D0293DD20800F16F5A;
+			productRefGroup = 6E1C14DA293DD20800F16F5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E1C14D8293DD20800F16F5A /* IdrealmMoneyTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E1C14D7293DD20800F16F5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1C14E4293DD20800F16F5A /* Preview Assets.xcassets in Resources */,
+				6E1C14E1293DD20800F16F5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E1C14D5293DD20800F16F5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1C14E9293DD20800F16F5A /* IdrealmMoneyTracker.xcdatamodeld in Sources */,
+				6EF18021293ED27B003D512D /* tempSave.swift in Sources */,
+				6E1C14E6293DD20800F16F5A /* Persistence.swift in Sources */,
+				6E1C14DF293DD20800F16F5A /* ContentView.swift in Sources */,
+				6E1C14DD293DD20800F16F5A /* IdrealmMoneyTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6E1C14EA293DD20800F16F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E1C14EB293DD20800F16F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E1C14ED293DD20800F16F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IdrealmMoneyTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 99YUZP4VKM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.idrealmStudio.IdrealmMoneyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E1C14EE293DD20800F16F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IdrealmMoneyTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 99YUZP4VKM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.idrealmStudio.IdrealmMoneyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E1C14D4293DD20800F16F5A /* Build configuration list for PBXProject "IdrealmMoneyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1C14EA293DD20800F16F5A /* Debug */,
+				6E1C14EB293DD20800F16F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E1C14EC293DD20800F16F5A /* Build configuration list for PBXNativeTarget "IdrealmMoneyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1C14ED293DD20800F16F5A /* Debug */,
+				6E1C14EE293DD20800F16F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6E1C14E7293DD20800F16F5A /* IdrealmMoneyTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E1C14E8293DD20800F16F5A /* IdrealmMoneyTracker.xcdatamodel */,
+			);
+			currentVersion = 6E1C14E8293DD20800F16F5A /* IdrealmMoneyTracker.xcdatamodel */;
+			path = IdrealmMoneyTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6E1C14D1293DD20800F16F5A /* Project object */;
+}
